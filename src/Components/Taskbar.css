@@ -1,0 +1,49 @@
+.table-container {
+  max-height: 380px;
+  background-color: #fff;
+  overflow-y: auto;
+  border-radius: 5px 5px;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+th {
+  padding: 10px;
+}
+
+.edit-button {
+  border-radius: 20px;
+  height: 40px;
+  width: 80px;
+  border-width: 0px;
+  background-color:rgb(65, 219, 65);
+  box-shadow: 10px;
+  margin-right: 10px;
+}
+
+.delete-button {
+  border-radius: 20px;
+  height: 40px;
+  width: 80px;
+  border-width: 0px;
+  margin-left: 60px;
+  background-color: red;
+  /* box-shadow: 10px; */
+}
+
+.text-box{
+  height: 90px;
+  width:60vw;
+  border-radius: 25px;
+  margin-top: 40px;
+}
+.text-box:focus{
+  background-color: rgb(251, 243, 243);
+  outline:none;
+}
